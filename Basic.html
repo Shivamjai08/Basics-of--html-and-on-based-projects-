@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Basic of HTML</title>
+    <!--  <style>this tag is used to add css in our html page </style> -->
+    <!-- <script>This tag is used to add javascript in our html page</script> -->
+</head>
+
+<body>
+    <!-- Heading tag  -->
+    <!-- <h1></h1>
+     <h2></h2>
+<h3></h3> ..  -->
+
+
+    <!-- For do statment in bold and italic and underline tags is:  -->
+    <!-- <b></b>
+<i></i>
+<u></u> -->
+
+    <!-- HR tag :
+<hr> this is used to make a horizental in page or show  a  gap b/w statment    -->
+
+    <!-- Br tag :
+it used to break a line  -->
+
+    <!-- P tag <p></p>  its used to write a pragraph in html  -->
+
+    <!-- subscrit and superscript tag: 
+H <sub>2</sub>0
+ S<sup>3</sup> -->
+
+    <!-- image tag :
+    <img src="...here we give a source link of image ..............."
+        alt=" description about image when will get error in loading of image "> -->
+
+    <!-- Span tag it used to show gap between two statement like ,harry Harry
+<span></span> -->
+
+    Semantic tags : this tag is used to make a google rank to our websites .
+    <header> this is header tag , in header tag navigation and link atrribute is use to navigate a website
+        <nav>
+            this is know as a anchor tag it is used to link another page in our websites
+            <a href="/Home" class="">Home </a>
+            <a href="/About" class="" target="_blank">About</a>
+            target="blank " used to open a given link in new tab
+            by the use of anchor tag we can link file , pages , folder , in image folder and also give a link of
+            websites
+        </nav>
+    </header>
+    <main>here we make a content of our website
+        in main tag we have many section to buid and articel so section and article tag is used to build a content
+        <section>
+            <article>
+                this tage is used to divide and make a content
+            </article>
+        </section>
+        <aside>
+            this tag is used to show a content in side of webpage , like ads show in website
+
+        </aside>
+    </main>
+    <footer> this is fotter tag</footer>
+
+
+    block level element
+    <div>this is block level element it take full width in webpage </div>
+    it is used b/w article to make a content.
+    inline element
+    span :<span>
+        harry(span take a content width only.)
+    </span>
+
+    List tag:
+    1. ordered list
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    unordered list
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    Defination list
+    <dl>
+        <dt>this is known as a defination term </dt>
+        <dd> this is known as a defination data </dd>
+    </dl>
+
+
+
+
+    Tabels in html
+    tabel tag is used to make a table in html
+    <table>
+        thead is known as a tabelhead
+        <thead>
+            <tr> tr is known as a tabel row
+                <th> Name </th>
+                <th> job </th>
+                <th> Salary </th>
+            </tr>
+        </thead>
+        tbody is known as a tabel body
+        <tbody>
+            <tr>
+                <td>Shivam</td>
+                <td>Software developer</td>
+                <td>$1000000</td>
+            </tr>
+            <tr>
+                <td colspan="1">Thnaks
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+    Forms tag in html
+    <form action="/submit.php">
+        <div> label tag is used to associate a data present in html
+            <label for="Name">Name</label>
+            <input type="text" id="Name " placeholder="Enter name " required>
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone " placeholder="Enter phone " required>
+        </div>
+        <div>
+            <label for="roll no">Roll no.</label>
+            <input type="text" id="Name " placeholder="Enter roll no. " required>
+        </div>
+        <div>
+            <label for="date">DOB</label>
+            <input type="date" id="date " placeholder="Enter DOB" required>
+        </div>
+        <div>
+            <label for="password"> password</label>
+            <input type="password" id="Name " placeholder="Enter  password " required>
+        </div>
+        <div>
+            <label for="E-mail">E-mail</label>
+            <input type="email" id="Name " placeholder="Enter E-mail " required>
+        </div>
+
+        <div>
+            <label for="Gender">Gender</label>
+            <select id="Gender" required>
+                <option value="" disabled selected>select gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Transgender">transgender</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+                   Radio button
+                   <div>
+                    <p>Subscription plan</p>
+                    <input type="radio" name="subscription" id="vip" value="vip"> 
+                    <label for="vip">Vip</label>
+
+                    <input type="radio" name="subscription" id="executive" value="executive">
+                    <label for="executive">Executive</label>
+
+                    <input type="radio" name="subscription" id="normal" value="normal">
+                    <label for="normal">Normal</label>
+                    
+                   </div>
+                   checkbox for terms and condition 
+                   <div>
+                    <input type="checkbox" name="" id="terms" required>
+                    <label for="tems ">I agree for Terms and Codition </label>
+                   </div>
+                  Textarea
+                  <div>
+                    <label for="comments"></label>
+                    <textarea name="comments" id="comments" placeholder="Enter Comments" rows="4"></textarea>
+                  </div>
+                  submit button 
+                  <div>
+                    <button type="submit">Submit</button>
+                  </div>
+
+    </form>
+video emmbeded in HTML
+<video src="........." controls autoplay loop muted> Error</video>
+in video we can set
+width
+height 
+everything that can need by attribute 
+
+ 
+
+
+
+
+</body>
+
+</html>
